@@ -21,6 +21,7 @@ namespace core.Controllers
     [HttpGet]
     public String Get()
     {
+      _logger.LogInformation("Requested here");
       return "I'm here ok!";
     }
   }
