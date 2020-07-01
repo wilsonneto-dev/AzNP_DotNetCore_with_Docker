@@ -2,6 +2,5 @@ Build da api:
 docker build -t wilsonnetodev/aznp-core .
 
 Próximos passos:
-- fazer build do react + statico com nginx
+x fazer build do react + statico com nginx
 - fazer docker-compose para ambos
-- como acessar o service pela spa

@@ -1,10 +1,10 @@
 FROM node:12 AS build-env
 WORKDIR /usr/src/app
 
-# Copiar csproj e restaurar dependencias
+# instalar dependencias e buildar
 COPY . ./
-RUN node i
-RUN NODE build 
+RUN npm i
+RUN npm run build 
 
 # Build da imagem
 FROM nginx
